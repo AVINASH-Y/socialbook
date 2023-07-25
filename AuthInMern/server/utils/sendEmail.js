@@ -10,8 +10,8 @@ module.exports = async (email, subject, text) => {
 			port: Number(process.env.EMAIL_PORT), // Port to use for the connection
 			secure: Boolean(process.env.SECURE), // Use SSL/TLS for secure connection
 			auth: {
-				user: "technologykey03@gmail.com", // Your email address
-				pass: "ctwfsanbojbibxew", // Your email password or an application-specific password
+				user: "technologykey03@gmail.com", 
+				pass: "ctwfsanbojbibxew", 
 			},
 		});
 
